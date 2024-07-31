@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"7a412508-03b1-4bdc-bed4-e10581a51c25",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>src.test.java.karateApp.feature.ejercicio1</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2024-07-31 09:21:19 a. m.</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[5:71]"><span>[5:71]</span> <span>borrar usuario</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/karateApp/feature/ejercicio1.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">ejercicio de corrida todo</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[5:71]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[5:71]</span>
+                <span class="scenario-name">borrar usuario</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1233</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[5:71]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[5:71]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">09:21:17.984 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.72">
+      <div class="step-ref passed">72</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>def userData = {&quot;name&quot;: &quot;morpheus&quot;,&quot;job&quot;: &quot;zion resident&quot;,&quot;id&quot;:2}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">32</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.73">
+      <div class="step-ref passed">73</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/users/&#39;+userData.id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.74">
+      <div class="step-ref passed">74</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>method delete</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1184</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.74">09:21:18.115 request:
+1 &gt; DELETE https://gorest.co.in/api/users/2
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+09:21:19.233 response time in milliseconds: 1101
+1 &lt; 404
+1 &lt; Date: Wed, 31 Jul 2024 13:21:28 GMT
+1 &lt; Content-Type: text/html; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: no-cache
+1 &lt; feature-policy: camera &#39;none&#39;; gyroscope &#39;none&#39;; microphone &#39;none&#39;; usb &#39;none&#39;; fullscreen &#39;self&#39;
+1 &lt; link: &lt;/assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css&gt;; rel=preload; as=style; nopush
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-request-id: e34d1f74-c0df-45d9-9693-068b33922fd2
+1 &lt; x-runtime: 0.014529
+1 &lt; x-xss-protection: 0
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v4?s=aSZ2MYwdy352QLteSUqloYkdIuPTfZ%2B2Sc9C9kB%2F8iq8slGTuGawRBL6yrQSKyOjny2wWJYXddkgtA6B2KAo%2B1wmlwwUWR3bBgQtuSNBm9P2STuEvYYm%2Fg%2FdyF7Y8bo%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 8abde44219604c1c-MIA
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;meta content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot; name=&quot;viewport&quot; /&gt;&lt;link href=&quot;/favicon.ico&quot; rel=&quot;icon&quot; type=&quot;image/x-icon&quot; /&gt;&lt;title&gt;Page Not Found | GO REST&lt;/title&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css&quot; media=&quot;all&quot; data-turbolinks-track=&quot;reload&quot; /&gt;&lt;script src=&quot;/packs/js/application-194ed409298f13f197d2.js&quot; data-turbolinks-track=&quot;reload&quot; defer=&quot;defer&quot;&gt;&lt;/script&gt;&lt;script async=&quot;true&quot; crossorigin=&quot;anonymous&quot; src=&quot;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899&quot;&gt;&lt;/script&gt;&lt;script async=&quot;true&quot; src=&quot;https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS&quot;&gt;&lt;/script&gt;&lt;script&gt;window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag(&#39;js&#39;, new Date());gtag(&#39;config&#39;, &#39;G-7KR6VNWHWS&#39;);&lt;/script&gt;&lt;/head&gt;&lt;body&gt;&lt;nav class=&quot;navbar navbar-expand-lg navbar-dark bg-dark sticky-top&quot;&gt;&lt;div class=&quot;container&quot;&gt;&lt;a class=&quot;navbar-brand&quot; href=&quot;/&quot;&gt;&lt;i class=&quot;fas fa-exchange-alt&quot;&gt;&lt;/i&gt; Go REST&lt;/a&gt;&lt;button aria-controls=&quot;AppNavBar&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot; class=&quot;navbar-toggler&quot; data-bs-target=&quot;#AppNavBar&quot; data-bs-toggle=&quot;collapse&quot; type=&quot;button&quot;&gt;&lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;&lt;/button&gt;&lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;AppNavBar&quot;&gt;&lt;ul class=&quot;navbar-nav ms-auto&quot;&gt;&lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;/chandamama-stories&quot;&gt;&lt;i class=&quot;fas fa-cloud-moon&quot;&gt;&lt;/i&gt; Chandamama Stories&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;/qa&quot;&gt;&lt;i class=&quot;fas fa-life-ring&quot;&gt;&lt;/i&gt; Help&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;/rest-console&quot;&gt;&lt;i class=&quot;fab fa-linux&quot;&gt;&lt;/i&gt; Rest Console&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;nav-item dropdown&quot;&gt;&lt;a aria-expanded=&quot;false&quot; class=&quot;nav-link dropdown-toggle&quot; data-bs-toggle=&quot;dropdown&quot; href=&quot;#&quot; id=&quot;ToolsDropDown&quot; role=&quot;button&quot;&gt;&lt;i class=&quot;fas fa-tools&quot;&gt;&lt;/i&gt; Tools&lt;/a&gt;&lt;ul aria-labelledby=&quot;ToolsDropDown&quot; class=&quot;dropdown-menu&quot;&gt;&lt;li class&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;/tools/base64-encode-decode&quot;&gt;Base64 Encode/Decode&lt;/a&gt;&lt;/li&gt;&lt;li class&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;/tools/url-encode-decode&quot;&gt;Url Encode/Decode&lt;/a&gt;&lt;/li&gt;&lt;li class&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;/tools/gcode-translator&quot;&gt;G-Code Translator&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;/consumer/login&quot;&gt;Login&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/nav&gt;&lt;div class=&quot;container pt-3&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}&lt;/style&gt;&lt;div class=&quot;card text-white border-secondary bg-dark&quot;&gt;&lt;div class=&quot;card-header&quot;&gt;&lt;h1 class=&quot;card-title text-warning&quot;&gt;&lt;i class=&quot;fas fa-ghost text-white slide-right&quot;&gt;&lt;/i&gt; HTTP: Not Found &lt;/h1&gt;&lt;/div&gt;&lt;div class=&quot;card-body&quot;&gt;&lt;h3 class=&quot;leaad code-text&quot;&gt;&lt;code class=&quot;mb-3&quot;&gt;&lt;span&gt;this_page&lt;/span&gt;.&lt;em&gt;not_found&lt;/em&gt; = true&lt;/code&gt;&lt;/h3&gt;&lt;p class=&quot;lead code-text&quot;&gt;&lt;code class=&quot;mb-2&quot;&gt;&lt;span&gt;if&lt;/span&gt; &lt;b&gt;you_spelt_it_wrong&lt;/b&gt; &lt;br/&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;try_again&lt;/span&gt;&lt;br/&gt;&lt;/code&gt;&lt;code class=&quot;mb-2&quot;&gt;&lt;span&gt;elsif &lt;b&gt;we_screwed_up&lt;/b&gt;&lt;/span&gt; &lt;br/&gt;&amp;nbsp;&amp;nbsp;&lt;em&gt;print&lt;/em&gt; &lt;i&gt;&quot;We&#39;re really sorry about that.&quot;&lt;/i&gt;&lt;br/&gt;&lt;/code&gt;&lt;code class=&quot;mb-2&quot;&gt;&lt;span&gt;end&lt;/span&gt;&lt;/code&gt;&lt;code class=&quot;mb-2&quot;&gt;&lt;span&gt;redirect_to&lt;/span&gt; &lt;em&gt;home_page&lt;/em&gt;&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;card-footer&quot;&gt;&lt;p class=&quot;text-danger&quot;&gt;We are sorry, something went wrong. Please try again later.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;hr class=&quot;mt-5&quot; /&gt;&lt;div class=&quot;container&quot;&gt;&lt;div class=&quot;footer&quot;&gt;&lt;ul class=&quot;list-inline&quot;&gt;&lt;li class=&quot;list-inline-item&quot;&gt;&amp;copy; Go Rest 2024&lt;/li&gt;&lt;li class=&quot;list-inline-item float-lg-end&quot;&gt;&lt;a href=&quot;/privacy-policy&quot;&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;list-inline-item float-lg-end me-3&quot;&gt;&lt;a href=&quot;/contact-us&quot;&gt;Contact Us&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.75">
+      <div class="step-ref failed">75</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 204</span>
+      </div>
+    </div>
+    <div class="time-cell failed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.75">09:21:19.253 src/test/java/karateApp/feature/ejercicio1.feature:75
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 1101, url: https://gorest.co.in/api/users/2, response: 
+&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;meta content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot; name=&quot;viewport&quot; /&gt;&lt;link href=&quot;/favicon.ico&quot; rel=&quot;icon&quot; type=&quot;image/x-icon&quot; /&gt;&lt;title&gt;Page Not Found | GO REST&lt;/title&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css&quot; media=&quot;all&quot; data-turbolinks-track=&quot;reload&quot; /&gt;&lt;script src=&quot;/packs/js/application-194ed409298f13f197d2.js&quot; data-turbolinks-track=&quot;reload&quot; defer=&quot;defer&quot;&gt;&lt;/script&gt;&lt;script async=&quot;true&quot; crossorigin=&quot;anonymous&quot; src=&quot;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899&quot;&gt;&lt;/script&gt;&lt;script async=&quot;true&quot; src=&quot;https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS&quot;&gt;&lt;/script&gt;&lt;script&gt;window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag(&#39;js&#39;, new Date());gtag(&#39;config&#39;, &#39;G-7KR6VNWHWS&#39;);&lt;/script&gt;&lt;/head&gt;&lt;body&gt;&lt;nav class=&quot;navbar navbar-expand-lg navbar-dark bg-dark sticky-top&quot;&gt;&lt;div class=&quot;container&quot;&gt;&lt;a class=&quot;navbar-brand&quot; href=&quot;/&quot;&gt;&lt;i class=&quot;fas fa-exchange-alt&quot;&gt;&lt;/i&gt; Go REST&lt;/a&gt;&lt;button aria-controls=&quot;AppNavBar&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot; class=&quot;navbar-toggler&quot; data-bs-target=&quot;#AppNavBar&quot; data-bs-toggle=&quot;collapse&quot; type=&quot;button&quot;&gt;&lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;&lt;/button&gt;&lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;AppNavBar&quot;&gt;&lt;ul class=&quot;navbar-nav ms-auto&quot;&gt;&lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;/chandamama-stories&quot;&gt;&lt;i class=&quot;fas fa-cloud-moon&quot;&gt;&lt;/i&gt; Chandamama Stories&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;/qa&quot;&gt;&lt;i class=&quot;fas fa-life-ring&quot;&gt;&lt;/i&gt; Help&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;/rest-console&quot;&gt;&lt;i class=&quot;fab fa-linux&quot;&gt;&lt;/i&gt; Rest Console&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;nav-item dropdown&quot;&gt;&lt;a aria-expanded=&quot;false&quot; class=&quot;nav-link dropdown-toggle&quot; data-bs-toggle=&quot;dropdown&quot; href=&quot;#&quot; id=&quot;ToolsDropDown&quot; role=&quot;button&quot;&gt;&lt;i class=&quot;fas fa-tools&quot;&gt;&lt;/i&gt; Tools&lt;/a&gt;&lt;ul aria-labelledby=&quot;ToolsDropDown&quot; class=&quot;dropdown-menu&quot;&gt;&lt;li class&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;/tools/base64-encode-decode&quot;&gt;Base64 Encode/Decode&lt;/a&gt;&lt;/li&gt;&lt;li class&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;/tools/url-encode-decode&quot;&gt;Url Encode/Decode&lt;/a&gt;&lt;/li&gt;&lt;li class&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;/tools/gcode-translator&quot;&gt;G-Code Translator&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;/consumer/login&quot;&gt;Login&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/nav&gt;&lt;div class=&quot;container pt-3&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}&lt;/style&gt;&lt;div class=&quot;card text-white border-secondary bg-dark&quot;&gt;&lt;div class=&quot;card-header&quot;&gt;&lt;h1 class=&quot;card-title text-warning&quot;&gt;&lt;i class=&quot;fas fa-ghost text-white slide-right&quot;&gt;&lt;/i&gt; HTTP: Not Found &lt;/h1&gt;&lt;/div&gt;&lt;div class=&quot;card-body&quot;&gt;&lt;h3 class=&quot;leaad code-text&quot;&gt;&lt;code class=&quot;mb-3&quot;&gt;&lt;span&gt;this_page&lt;/span&gt;.&lt;em&gt;not_found&lt;/em&gt; = true&lt;/code&gt;&lt;/h3&gt;&lt;p class=&quot;lead code-text&quot;&gt;&lt;code class=&quot;mb-2&quot;&gt;&lt;span&gt;if&lt;/span&gt; &lt;b&gt;you_spelt_it_wrong&lt;/b&gt; &lt;br/&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;try_again&lt;/span&gt;&lt;br/&gt;&lt;/code&gt;&lt;code class=&quot;mb-2&quot;&gt;&lt;span&gt;elsif &lt;b&gt;we_screwed_up&lt;/b&gt;&lt;/span&gt; &lt;br/&gt;&amp;nbsp;&amp;nbsp;&lt;em&gt;print&lt;/em&gt; &lt;i&gt;&quot;We&#39;re really sorry about that.&quot;&lt;/i&gt;&lt;br/&gt;&lt;/code&gt;&lt;code class=&quot;mb-2&quot;&gt;&lt;span&gt;end&lt;/span&gt;&lt;/code&gt;&lt;code class=&quot;mb-2&quot;&gt;&lt;span&gt;redirect_to&lt;/span&gt; &lt;em&gt;home_page&lt;/em&gt;&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;card-footer&quot;&gt;&lt;p class=&quot;text-danger&quot;&gt;We are sorry, something went wrong. Please try again later.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;hr class=&quot;mt-5&quot; /&gt;&lt;div class=&quot;container&quot;&gt;&lt;div class=&quot;footer&quot;&gt;&lt;ul class=&quot;list-inline&quot;&gt;&lt;li class=&quot;list-inline-item&quot;&gt;&amp;copy; Go Rest 2024&lt;/li&gt;&lt;li class=&quot;list-inline-item float-lg-end&quot;&gt;&lt;a href=&quot;/privacy-policy&quot;&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;&lt;li class=&quot;list-inline-item float-lg-end me-3&quot;&gt;&lt;a href=&quot;/contact-us&quot;&gt;Contact Us&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+src/test/java/karateApp/feature/ejercicio1.feature:75
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

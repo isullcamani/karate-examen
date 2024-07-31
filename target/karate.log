@@ -1,0 +1,1049 @@
+09:21:16.372 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.4.1
+09:21:16.808 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:21:16.832 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 71
+09:21:17.983 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - karate.env system property was: null 
+09:21:18.114 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > DELETE https://gorest.co.in/api/users/2
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:21:19.220 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 1101
+1 < 404
+1 < Date: Wed, 31 Jul 2024 13:21:28 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+1 < link: </assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css>; rel=preload; as=style; nopush
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: e34d1f74-c0df-45d9-9693-068b33922fd2
+1 < x-runtime: 0.014529
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=aSZ2MYwdy352QLteSUqloYkdIuPTfZ%2B2Sc9C9kB%2F8iq8slGTuGawRBL6yrQSKyOjny2wWJYXddkgtA6B2KAo%2B1wmlwwUWR3bBgQtuSNBm9P2STuEvYYm%2Fg%2FdyF7Y8bo%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abde44219604c1c-MIA
+1 < alt-svc: h3=":443"; ma=86400
+<!DOCTYPE html><html><head><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /><link href="/favicon.ico" rel="icon" type="image/x-icon" /><title>Page Not Found | GO REST</title><link rel="stylesheet" href="/assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css" media="all" data-turbolinks-track="reload" /><script src="/packs/js/application-194ed409298f13f197d2.js" data-turbolinks-track="reload" defer="defer"></script><script async="true" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899"></script><script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-7KR6VNWHWS');</script></head><body><nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"><div class="container"><a class="navbar-brand" href="/"><i class="fas fa-exchange-alt"></i> Go REST</a><button aria-controls="AppNavBar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#AppNavBar" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="AppNavBar"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="/chandamama-stories"><i class="fas fa-cloud-moon"></i> Chandamama Stories</a></li><li class="nav-item"><a class="nav-link" href="/qa"><i class="fas fa-life-ring"></i> Help</a></li><li class="nav-item"><a class="nav-link" href="/rest-console"><i class="fab fa-linux"></i> Rest Console</a></li><li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="ToolsDropDown" role="button"><i class="fas fa-tools"></i> Tools</a><ul aria-labelledby="ToolsDropDown" class="dropdown-menu"><li class><a class="dropdown-item" href="/tools/base64-encode-decode">Base64 Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/url-encode-decode">Url Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/gcode-translator">G-Code Translator</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/consumer/login">Login</a></li></ul></div></div></nav><div class="container pt-3"><style type="text/css">.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}</style><div class="card text-white border-secondary bg-dark"><div class="card-header"><h1 class="card-title text-warning"><i class="fas fa-ghost text-white slide-right"></i> HTTP: Not Found </h1></div><div class="card-body"><h3 class="leaad code-text"><code class="mb-3"><span>this_page</span>.<em>not_found</em> = true</code></h3><p class="lead code-text"><code class="mb-2"><span>if</span> <b>you_spelt_it_wrong</b> <br/>&nbsp;&nbsp;<span>try_again</span><br/></code><code class="mb-2"><span>elsif <b>we_screwed_up</b></span> <br/>&nbsp;&nbsp;<em>print</em> <i>"We're really sorry about that."</i><br/></code><code class="mb-2"><span>end</span></code><code class="mb-2"><span>redirect_to</span> <em>home_page</em></code></p></div><div class="card-footer"><p class="text-danger">We are sorry, something went wrong. Please try again later.</p></div></div></div><hr class="mt-5" /><div class="container"><div class="footer"><ul class="list-inline"><li class="list-inline-item">&copy; Go Rest 2024</li><li class="list-inline-item float-lg-end"><a href="/privacy-policy">Privacy Policy</a></li><li class="list-inline-item float-lg-end me-3"><a href="/contact-us">Contact Us</a></li></ul></div></div></body></html>
+
+09:21:19.248 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/karateApp/feature/ejercicio1.feature:75
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 1101, url: https://gorest.co.in/api/users/2, response: 
+<!DOCTYPE html><html><head><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /><link href="/favicon.ico" rel="icon" type="image/x-icon" /><title>Page Not Found | GO REST</title><link rel="stylesheet" href="/assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css" media="all" data-turbolinks-track="reload" /><script src="/packs/js/application-194ed409298f13f197d2.js" data-turbolinks-track="reload" defer="defer"></script><script async="true" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899"></script><script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-7KR6VNWHWS');</script></head><body><nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"><div class="container"><a class="navbar-brand" href="/"><i class="fas fa-exchange-alt"></i> Go REST</a><button aria-controls="AppNavBar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#AppNavBar" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="AppNavBar"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="/chandamama-stories"><i class="fas fa-cloud-moon"></i> Chandamama Stories</a></li><li class="nav-item"><a class="nav-link" href="/qa"><i class="fas fa-life-ring"></i> Help</a></li><li class="nav-item"><a class="nav-link" href="/rest-console"><i class="fab fa-linux"></i> Rest Console</a></li><li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="ToolsDropDown" role="button"><i class="fas fa-tools"></i> Tools</a><ul aria-labelledby="ToolsDropDown" class="dropdown-menu"><li class><a class="dropdown-item" href="/tools/base64-encode-decode">Base64 Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/url-encode-decode">Url Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/gcode-translator">G-Code Translator</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/consumer/login">Login</a></li></ul></div></div></nav><div class="container pt-3"><style type="text/css">.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}</style><div class="card text-white border-secondary bg-dark"><div class="card-header"><h1 class="card-title text-warning"><i class="fas fa-ghost text-white slide-right"></i> HTTP: Not Found </h1></div><div class="card-body"><h3 class="leaad code-text"><code class="mb-3"><span>this_page</span>.<em>not_found</em> = true</code></h3><p class="lead code-text"><code class="mb-2"><span>if</span> <b>you_spelt_it_wrong</b> <br/>&nbsp;&nbsp;<span>try_again</span><br/></code><code class="mb-2"><span>elsif <b>we_screwed_up</b></span> <br/>&nbsp;&nbsp;<em>print</em> <i>"We're really sorry about that."</i><br/></code><code class="mb-2"><span>end</span></code><code class="mb-2"><span>redirect_to</span> <em>home_page</em></code></p></div><div class="card-footer"><p class="text-danger">We are sorry, something went wrong. Please try again later.</p></div></div></div><hr class="mt-5" /><div class="container"><div class="footer"><ul class="list-inline"><li class="list-inline-item">&copy; Go Rest 2024</li><li class="list-inline-item float-lg-end"><a href="/privacy-policy">Privacy Policy</a></li><li class="list-inline-item float-lg-end me-3"><a href="/contact-us">Contact Us</a></li></ul></div></div></body></html>
+src/test/java/karateApp/feature/ejercicio1.feature:75
+09:21:19.779 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/karateApp/feature/ejercicio1.feature
+09:29:41.851 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:29:42.908 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:29:43.230 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:29:44.604 [main] DEBUG com.intuit.karate - response time in milliseconds: 1371
+1 < 200
+1 < Date: Wed, 31 Jul 2024 13:29:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"b5f6819b7047552a74ebd28746f3188d"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 294
+1 < x-pagination-total: 2937
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 88
+1 < x-ratelimit-reset: 1
+1 < x-request-id: e7f7654c-ba67-4d6c-9ef6-804cb0c77058
+1 < x-runtime: 0.081636
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=wAe5c%2Fwnkslo404Ddj9c6wb2VqTujaChzRdgrYlYKCaJlaINHZceCvexedgNQHocA6zKZWj3Ub2%2Buk0RWI2w3qyqyWKNfJgBaHEpj%2FrUVHvisyaVXDtq%2FizEZxCNI4g%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf0988ff612a7-MIA
+1 < alt-svc: h3=":443"; ma=86400
+[{"id":7250766,"name":"Tenali Ramakrishndda","email":"tenali.ramakddishna@15ce.com","gender":"male","status":"active"},{"id":7250696,"name":"Allasani Peddana","email":"ai.peddana@15ce.com","gender":"male","status":"active"},{"id":7250683,"name":"Tenali Ramakrishna","email":"tenali.ra@teest.com","gender":"male","status":"active"},{"id":7250354,"name":"Ismael Sullcamani Porto 1","email":"isullcaman11@15ce.com","gender":"male","status":"active"},{"id":7250555,"name":"Tenali Ramakrishna","email":"tenali.ramakrishna@teest.com","gender":"male","status":"active"},{"id":7250543,"name":"Tenali Ramakrishna","email":"tenali.ramakrishna@tst.com","gender":"male","status":"active"},{"id":7250529,"name":"Tenali Ramakrishna","email":"tenali.ramakrishna@test.com","gender":"male","status":"active"},{"id":7250493,"name":"Ismael Sullcamani 5","email":"isullcaman5@15ce.com","gender":"male","status":"active"},{"id":7250476,"name":"Ismael Sullcamani 4","email":"isullcaman4@15ce.com","gender":"male","status":"active"},{"id":7250451,"name":"Ismael Sullcamani 3","email":"isullcaman3@15ce.com","gender":"male","status":"active"}]
+
+09:29:44.674 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:29:44.713 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 95
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Ismael Sullcamani 5","gender":"male","email":"isullcaman5@15ce.com","status":"active"}
+
+09:29:45.831 [main] DEBUG com.intuit.karate - response time in milliseconds: 1117
+1 < 422
+1 < Date: Wed, 31 Jul 2024 13:29:54 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 54
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 00b8a1ab-c6fc-40e2-ac14-877ae6b42979
+1 < x-runtime: 0.093057
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Vxyt1KFuDTFWPV3udJyk%2B2AzrkGgctMcPEG10ru8pwKJ36mvYpDt9WmExyg%2BO8rHtCWiu8cxolmtsu3LZUYMQyw2xfcUAXQn53LrEPpPlR%2FlveAywXjNhz3bzTtZqVg%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf0a049fd7431-MIA
+1 < alt-svc: h3=":443"; ma=86400
+[{"field":"email","message":"has already been taken"}]
+
+09:29:45.837 [main] ERROR com.intuit.karate - classpath:karateApp/feature/ejercicio1.feature:38
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 1117, url: https://gorest.co.in/public/v2/users, response: 
+[{"field":"email","message":"has already been taken"}]
+classpath:karateApp/feature/ejercicio1.feature:38
+09:29:45.856 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:29:45.861 [main] DEBUG com.intuit.karate - request:
+1 > PATCH https://gorest.co.in/public/v2/users/idUser
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 87
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Ismael Sullcamani Porto 12","email":"isullcaman12@15ce.com","status":"active"}
+
+09:29:47.998 [main] DEBUG com.intuit.karate - response time in milliseconds: 2135
+1 < 404
+1 < Date: Wed, 31 Jul 2024 13:29:56 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 77c0ab4a-af16-487b-bead-7fbc7eede910
+1 < x-runtime: 0.059088
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=zx93FLBe9YnFVLizBWJZFxkRLKLDMCR0ANmObWBvwkPYpmFvzm3GCJ90cgA0JVVfvuJv36czeYAqq1vW16bm%2F2r3F15pwxnYlvFbUEJYzHk7E6ENY4i1AaEwYP8JF58%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf0adbffddacd-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+
+09:29:47.999 [main] ERROR com.intuit.karate - classpath:karateApp/feature/ejercicio1.feature:56
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 2135, url: https://gorest.co.in/public/v2/users/idUser, response: 
+{"message":"Resource not found"}
+classpath:karateApp/feature/ejercicio1.feature:56
+09:29:48.010 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:29:48.014 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://gorest.co.in/api/users/idUser
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:29:48.567 [main] DEBUG com.intuit.karate - response time in milliseconds: 551
+1 < 404
+1 < Date: Wed, 31 Jul 2024 13:29:57 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+1 < link: </assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css>; rel=preload; as=style; nopush
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 79aae4fd-260c-477d-9ba5-7de344b7161e
+1 < x-runtime: 0.016167
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=lMc2vqgwH9CDCUG6vZMAs9tLrm%2BKRoBX4t9nqK94inh%2B8%2BoRS%2FLt0fUI83H2w2CJ1dp4voe6jvEt3fXW%2BAHVGUISqNx8Kxb4Mhqmwzxbi7kcDBErIly8d0c9HbpQvmo%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf0b4de5a7494-MIA
+1 < alt-svc: h3=":443"; ma=86400
+<!DOCTYPE html><html><head><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /><link href="/favicon.ico" rel="icon" type="image/x-icon" /><title>Page Not Found | GO REST</title><link rel="stylesheet" href="/assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css" media="all" data-turbolinks-track="reload" /><script src="/packs/js/application-194ed409298f13f197d2.js" data-turbolinks-track="reload" defer="defer"></script><script async="true" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899"></script><script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-7KR6VNWHWS');</script></head><body><nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"><div class="container"><a class="navbar-brand" href="/"><i class="fas fa-exchange-alt"></i> Go REST</a><button aria-controls="AppNavBar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#AppNavBar" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="AppNavBar"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="/chandamama-stories"><i class="fas fa-cloud-moon"></i> Chandamama Stories</a></li><li class="nav-item"><a class="nav-link" href="/qa"><i class="fas fa-life-ring"></i> Help</a></li><li class="nav-item"><a class="nav-link" href="/rest-console"><i class="fab fa-linux"></i> Rest Console</a></li><li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="ToolsDropDown" role="button"><i class="fas fa-tools"></i> Tools</a><ul aria-labelledby="ToolsDropDown" class="dropdown-menu"><li class><a class="dropdown-item" href="/tools/base64-encode-decode">Base64 Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/url-encode-decode">Url Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/gcode-translator">G-Code Translator</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/consumer/login">Login</a></li></ul></div></div></nav><div class="container pt-3"><style type="text/css">.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}</style><div class="card text-white border-secondary bg-dark"><div class="card-header"><h1 class="card-title text-warning"><i class="fas fa-ghost text-white slide-right"></i> HTTP: Not Found </h1></div><div class="card-body"><h3 class="leaad code-text"><code class="mb-3"><span>this_page</span>.<em>not_found</em> = true</code></h3><p class="lead code-text"><code class="mb-2"><span>if</span> <b>you_spelt_it_wrong</b> <br/>&nbsp;&nbsp;<span>try_again</span><br/></code><code class="mb-2"><span>elsif <b>we_screwed_up</b></span> <br/>&nbsp;&nbsp;<em>print</em> <i>"We're really sorry about that."</i><br/></code><code class="mb-2"><span>end</span></code><code class="mb-2"><span>redirect_to</span> <em>home_page</em></code></p></div><div class="card-footer"><p class="text-danger">We are sorry, something went wrong. Please try again later.</p></div></div></div><hr class="mt-5" /><div class="container"><div class="footer"><ul class="list-inline"><li class="list-inline-item">&copy; Go Rest 2024</li><li class="list-inline-item float-lg-end"><a href="/privacy-policy">Privacy Policy</a></li><li class="list-inline-item float-lg-end me-3"><a href="/contact-us">Contact Us</a></li></ul></div></div></body></html>
+
+09:29:48.569 [main] ERROR com.intuit.karate - classpath:karateApp/feature/ejercicio1.feature:64
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 551, url: https://gorest.co.in/api/users/idUser, response: 
+<!DOCTYPE html><html><head><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /><link href="/favicon.ico" rel="icon" type="image/x-icon" /><title>Page Not Found | GO REST</title><link rel="stylesheet" href="/assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css" media="all" data-turbolinks-track="reload" /><script src="/packs/js/application-194ed409298f13f197d2.js" data-turbolinks-track="reload" defer="defer"></script><script async="true" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899"></script><script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-7KR6VNWHWS');</script></head><body><nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"><div class="container"><a class="navbar-brand" href="/"><i class="fas fa-exchange-alt"></i> Go REST</a><button aria-controls="AppNavBar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#AppNavBar" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="AppNavBar"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="/chandamama-stories"><i class="fas fa-cloud-moon"></i> Chandamama Stories</a></li><li class="nav-item"><a class="nav-link" href="/qa"><i class="fas fa-life-ring"></i> Help</a></li><li class="nav-item"><a class="nav-link" href="/rest-console"><i class="fab fa-linux"></i> Rest Console</a></li><li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="ToolsDropDown" role="button"><i class="fas fa-tools"></i> Tools</a><ul aria-labelledby="ToolsDropDown" class="dropdown-menu"><li class><a class="dropdown-item" href="/tools/base64-encode-decode">Base64 Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/url-encode-decode">Url Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/gcode-translator">G-Code Translator</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/consumer/login">Login</a></li></ul></div></div></nav><div class="container pt-3"><style type="text/css">.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}</style><div class="card text-white border-secondary bg-dark"><div class="card-header"><h1 class="card-title text-warning"><i class="fas fa-ghost text-white slide-right"></i> HTTP: Not Found </h1></div><div class="card-body"><h3 class="leaad code-text"><code class="mb-3"><span>this_page</span>.<em>not_found</em> = true</code></h3><p class="lead code-text"><code class="mb-2"><span>if</span> <b>you_spelt_it_wrong</b> <br/>&nbsp;&nbsp;<span>try_again</span><br/></code><code class="mb-2"><span>elsif <b>we_screwed_up</b></span> <br/>&nbsp;&nbsp;<em>print</em> <i>"We're really sorry about that."</i><br/></code><code class="mb-2"><span>end</span></code><code class="mb-2"><span>redirect_to</span> <em>home_page</em></code></p></div><div class="card-footer"><p class="text-danger">We are sorry, something went wrong. Please try again later.</p></div></div></div><hr class="mt-5" /><div class="container"><div class="footer"><ul class="list-inline"><li class="list-inline-item">&copy; Go Rest 2024</li><li class="list-inline-item float-lg-end"><a href="/privacy-policy">Privacy Policy</a></li><li class="list-inline-item float-lg-end me-3"><a href="/contact-us">Contact Us</a></li></ul></div></div></body></html>
+classpath:karateApp/feature/ejercicio1.feature:64
+09:31:32.715 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:31:33.807 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:31:34.131 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:31:35.538 [main] DEBUG com.intuit.karate - response time in milliseconds: 1404
+1 < 200
+1 < Date: Wed, 31 Jul 2024 13:31:44 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"2606a147ee6b0b28504e4a2cd8620712"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 294
+1 < x-pagination-total: 2938
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 88
+1 < x-ratelimit-reset: 1
+1 < x-request-id: d70f4f14-7073-425a-a0a4-cda5efbbd268
+1 < x-runtime: 0.103156
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=FyBg9JVQ3kPCXbnsSHiFDmHUqspAOCHzTq8%2FsySw%2B1fjSlJRwPVzvVeh8RJQYi7Kwv%2Fful8nrZxpr%2FXAZCOC%2Fe7AKYNhwOa%2BXes4263M6Gi8VeW%2ByMt8KIZZOXMJXFA%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf34d99678d9d-MIA
+1 < alt-svc: h3=":443"; ma=86400
+[{"id":7247581,"name":"Samuel Quenta","email":"varma_chandran2@durgan.test","gender":"male","status":"active"},{"id":7250798,"name":"Samuel Quenta Carvajal","email":"squentac3@bancosol.com.bo","gender":"male","status":"active"},{"id":7250783,"name":"Rami Malek","email":"ramimalek@gmail.com","gender":"male","status":"active"},{"id":7250766,"name":"Tenali Ramakrishndda","email":"tenali.ramakddishna@15ce.com","gender":"male","status":"active"},{"id":7250696,"name":"Allasani Peddana","email":"ai.peddana@15ce.com","gender":"male","status":"active"},{"id":7250683,"name":"Tenali Ramakrishna","email":"tenali.ra@teest.com","gender":"male","status":"active"},{"id":7250354,"name":"Ismael Sullcamani Porto 1","email":"isullcaman11@15ce.com","gender":"male","status":"active"},{"id":7250555,"name":"Tenali Ramakrishna","email":"tenali.ramakrishna@teest.com","gender":"male","status":"active"},{"id":7250543,"name":"Tenali Ramakrishna","email":"tenali.ramakrishna@tst.com","gender":"male","status":"active"},{"id":7250529,"name":"Tenali Ramakrishna","email":"tenali.ramakrishna@test.com","gender":"male","status":"active"}]
+
+09:31:35.616 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:31:35.667 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 95
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Ismael Sullcamani 1","gender":"male","email":"isullcaman2@15ce.com","status":"active"}
+
+09:31:36.823 [main] DEBUG com.intuit.karate - response time in milliseconds: 1156
+1 < 422
+1 < Date: Wed, 31 Jul 2024 13:31:45 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 54
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 7b9b183b-a19a-4e13-88ad-608cf6f9a39a
+1 < x-runtime: 0.097064
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=u9bAt2kgSXptGdiNJwQ7VoUqfy6jpxXPsmFsbBVCVKX8rLJzK56MkSXviYFT%2BLze1FWunvkXVBQGTB6zgnCOpc197w%2BuMWbF0QUBg1PqzVv14Vqu71X%2B4PKezuu1%2BEc%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf355ad59db2d-MIA
+1 < alt-svc: h3=":443"; ma=86400
+[{"field":"email","message":"has already been taken"}]
+
+09:31:36.831 [main] ERROR com.intuit.karate - classpath:karateApp/feature/ejercicio1.feature:38
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 1156, url: https://gorest.co.in/public/v2/users, response: 
+[{"field":"email","message":"has already been taken"}]
+classpath:karateApp/feature/ejercicio1.feature:38
+09:31:36.849 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:31:36.854 [main] DEBUG com.intuit.karate - request:
+1 > PATCH https://gorest.co.in/public/v2/users/idUser
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 87
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Ismael Sullcamani Porto 12","email":"isullcaman12@15ce.com","status":"active"}
+
+09:31:37.954 [main] DEBUG com.intuit.karate - response time in milliseconds: 1099
+1 < 404
+1 < Date: Wed, 31 Jul 2024 13:31:46 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: f5e8e67c-01fb-4654-afe9-ef103e5bed20
+1 < x-runtime: 0.080752
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=pQ0CWz8Dmn4KNT1oqjfBS0HL31vBZFiAydoXdvIEcKaLL%2FDmkIBkpWB2BuzXb7woR513rUIV7Co6Dg6W%2B9LtHRJ47MXiYjHwqLgvO2cl3qI46YDMmNRDUj5jUopNw70%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf35d1bcc09ee-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+
+09:31:37.956 [main] ERROR com.intuit.karate - classpath:karateApp/feature/ejercicio1.feature:56
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1099, url: https://gorest.co.in/public/v2/users/idUser, response: 
+{"message":"Resource not found"}
+classpath:karateApp/feature/ejercicio1.feature:56
+09:31:37.963 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:31:37.968 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://gorest.co.in/api/users/idUser
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:31:38.531 [main] DEBUG com.intuit.karate - response time in milliseconds: 562
+1 < 404
+1 < Date: Wed, 31 Jul 2024 13:31:47 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+1 < link: </assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css>; rel=preload; as=style; nopush
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 64e81380-fe1e-46fd-904a-b21cea18307f
+1 < x-runtime: 0.028375
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=rIr%2FweVGjEktd5wL0B6fYoIyqAYoC8ZjXmHbFXCyhyU4XM9BUX73drWfTjyu53XjK0aCnMA9zT7Hmn02hXYOpy9gHu%2BFFePyJZAG67Hy6E70kTZyD6CrvmnsxFPN4vI%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf3641e77b3e3-MIA
+1 < alt-svc: h3=":443"; ma=86400
+<!DOCTYPE html><html><head><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /><link href="/favicon.ico" rel="icon" type="image/x-icon" /><title>Page Not Found | GO REST</title><link rel="stylesheet" href="/assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css" media="all" data-turbolinks-track="reload" /><script src="/packs/js/application-194ed409298f13f197d2.js" data-turbolinks-track="reload" defer="defer"></script><script async="true" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899"></script><script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-7KR6VNWHWS');</script></head><body><nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"><div class="container"><a class="navbar-brand" href="/"><i class="fas fa-exchange-alt"></i> Go REST</a><button aria-controls="AppNavBar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#AppNavBar" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="AppNavBar"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="/chandamama-stories"><i class="fas fa-cloud-moon"></i> Chandamama Stories</a></li><li class="nav-item"><a class="nav-link" href="/qa"><i class="fas fa-life-ring"></i> Help</a></li><li class="nav-item"><a class="nav-link" href="/rest-console"><i class="fab fa-linux"></i> Rest Console</a></li><li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="ToolsDropDown" role="button"><i class="fas fa-tools"></i> Tools</a><ul aria-labelledby="ToolsDropDown" class="dropdown-menu"><li class><a class="dropdown-item" href="/tools/base64-encode-decode">Base64 Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/url-encode-decode">Url Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/gcode-translator">G-Code Translator</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/consumer/login">Login</a></li></ul></div></div></nav><div class="container pt-3"><style type="text/css">.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}</style><div class="card text-white border-secondary bg-dark"><div class="card-header"><h1 class="card-title text-warning"><i class="fas fa-ghost text-white slide-right"></i> HTTP: Not Found </h1></div><div class="card-body"><h3 class="leaad code-text"><code class="mb-3"><span>this_page</span>.<em>not_found</em> = true</code></h3><p class="lead code-text"><code class="mb-2"><span>if</span> <b>you_spelt_it_wrong</b> <br/>&nbsp;&nbsp;<span>try_again</span><br/></code><code class="mb-2"><span>elsif <b>we_screwed_up</b></span> <br/>&nbsp;&nbsp;<em>print</em> <i>"We're really sorry about that."</i><br/></code><code class="mb-2"><span>end</span></code><code class="mb-2"><span>redirect_to</span> <em>home_page</em></code></p></div><div class="card-footer"><p class="text-danger">We are sorry, something went wrong. Please try again later.</p></div></div></div><hr class="mt-5" /><div class="container"><div class="footer"><ul class="list-inline"><li class="list-inline-item">&copy; Go Rest 2024</li><li class="list-inline-item float-lg-end"><a href="/privacy-policy">Privacy Policy</a></li><li class="list-inline-item float-lg-end me-3"><a href="/contact-us">Contact Us</a></li></ul></div></div></body></html>
+
+09:31:38.533 [main] ERROR com.intuit.karate - classpath:karateApp/feature/ejercicio1.feature:64
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 562, url: https://gorest.co.in/api/users/idUser, response: 
+<!DOCTYPE html><html><head><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /><link href="/favicon.ico" rel="icon" type="image/x-icon" /><title>Page Not Found | GO REST</title><link rel="stylesheet" href="/assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css" media="all" data-turbolinks-track="reload" /><script src="/packs/js/application-194ed409298f13f197d2.js" data-turbolinks-track="reload" defer="defer"></script><script async="true" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899"></script><script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-7KR6VNWHWS');</script></head><body><nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"><div class="container"><a class="navbar-brand" href="/"><i class="fas fa-exchange-alt"></i> Go REST</a><button aria-controls="AppNavBar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#AppNavBar" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="AppNavBar"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="/chandamama-stories"><i class="fas fa-cloud-moon"></i> Chandamama Stories</a></li><li class="nav-item"><a class="nav-link" href="/qa"><i class="fas fa-life-ring"></i> Help</a></li><li class="nav-item"><a class="nav-link" href="/rest-console"><i class="fab fa-linux"></i> Rest Console</a></li><li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="ToolsDropDown" role="button"><i class="fas fa-tools"></i> Tools</a><ul aria-labelledby="ToolsDropDown" class="dropdown-menu"><li class><a class="dropdown-item" href="/tools/base64-encode-decode">Base64 Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/url-encode-decode">Url Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/gcode-translator">G-Code Translator</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/consumer/login">Login</a></li></ul></div></div></nav><div class="container pt-3"><style type="text/css">.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}</style><div class="card text-white border-secondary bg-dark"><div class="card-header"><h1 class="card-title text-warning"><i class="fas fa-ghost text-white slide-right"></i> HTTP: Not Found </h1></div><div class="card-body"><h3 class="leaad code-text"><code class="mb-3"><span>this_page</span>.<em>not_found</em> = true</code></h3><p class="lead code-text"><code class="mb-2"><span>if</span> <b>you_spelt_it_wrong</b> <br/>&nbsp;&nbsp;<span>try_again</span><br/></code><code class="mb-2"><span>elsif <b>we_screwed_up</b></span> <br/>&nbsp;&nbsp;<em>print</em> <i>"We're really sorry about that."</i><br/></code><code class="mb-2"><span>end</span></code><code class="mb-2"><span>redirect_to</span> <em>home_page</em></code></p></div><div class="card-footer"><p class="text-danger">We are sorry, something went wrong. Please try again later.</p></div></div></div><hr class="mt-5" /><div class="container"><div class="footer"><ul class="list-inline"><li class="list-inline-item">&copy; Go Rest 2024</li><li class="list-inline-item float-lg-end"><a href="/privacy-policy">Privacy Policy</a></li><li class="list-inline-item float-lg-end me-3"><a href="/contact-us">Contact Us</a></li></ul></div></div></body></html>
+classpath:karateApp/feature/ejercicio1.feature:64
+09:32:08.701 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:32:09.709 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:32:09.990 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:32:11.322 [main] DEBUG com.intuit.karate - response time in milliseconds: 1330
+1 < 200
+1 < Date: Wed, 31 Jul 2024 13:32:20 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"2606a147ee6b0b28504e4a2cd8620712"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 294
+1 < x-pagination-total: 2937
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 88
+1 < x-ratelimit-reset: 1
+1 < x-request-id: c69988d0-94ff-43f8-9403-af7ac8eebec0
+1 < x-runtime: 0.094948
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=A5lz0f84o05%2FYN6bVti3qVVtfnLE5VBDW7aqtw59cNg5jdtFDnXWmkWWe%2BQ8MVT%2BbC9SbUSRo8OqgBGz0snYXqiMWcrDHU7%2BINVhJQHB72BKGTEtIGVTMeNW3YknfwQ%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf42d7a1eb3f1-MIA
+1 < alt-svc: h3=":443"; ma=86400
+[{"id":7247581,"name":"Samuel Quenta","email":"varma_chandran2@durgan.test","gender":"male","status":"active"},{"id":7250798,"name":"Samuel Quenta Carvajal","email":"squentac3@bancosol.com.bo","gender":"male","status":"active"},{"id":7250783,"name":"Rami Malek","email":"ramimalek@gmail.com","gender":"male","status":"active"},{"id":7250766,"name":"Tenali Ramakrishndda","email":"tenali.ramakddishna@15ce.com","gender":"male","status":"active"},{"id":7250696,"name":"Allasani Peddana","email":"ai.peddana@15ce.com","gender":"male","status":"active"},{"id":7250683,"name":"Tenali Ramakrishna","email":"tenali.ra@teest.com","gender":"male","status":"active"},{"id":7250354,"name":"Ismael Sullcamani Porto 1","email":"isullcaman11@15ce.com","gender":"male","status":"active"},{"id":7250555,"name":"Tenali Ramakrishna","email":"tenali.ramakrishna@teest.com","gender":"male","status":"active"},{"id":7250543,"name":"Tenali Ramakrishna","email":"tenali.ramakrishna@tst.com","gender":"male","status":"active"},{"id":7250529,"name":"Tenali Ramakrishna","email":"tenali.ramakrishna@test.com","gender":"male","status":"active"}]
+
+09:32:11.393 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:32:11.436 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 100
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Ismael Sullcamani 3121","gender":"male","email":"isullcaman122@15ce.com","status":"active"}
+
+09:32:12.076 [main] DEBUG com.intuit.karate - response time in milliseconds: 640
+1 < 201
+1 < Date: Wed, 31 Jul 2024 13:32:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 113
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"838de5ad6ad89a370ff7fe320426a4c2"
+1 < location: https://gorest.co.in/public/v2/users/7250825
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: fcb31a23-3d47-4390-be4a-77a3718a9350
+1 < x-runtime: 0.113364
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=SWKkpPVZ922DBSrQltI2oJ2q7%2BcHkjrovD220%2BzseojE518v02o07g4SR%2Bmh3MZH2z3jdyuVEoQg2zOGINInCXKr1FQw0A1L2otd00VHCv6Qw3JxWtQbKVPgO0X2BX0%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf4354df3a4f8-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{"id":7250825,"name":"Ismael Sullcamani 3121","email":"isullcaman122@15ce.com","gender":"male","status":"active"}
+
+09:32:12.094 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:32:12.100 [main] DEBUG com.intuit.karate - request:
+1 > PATCH https://gorest.co.in/public/v2/users/idUser
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 87
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Ismael Sullcamani Porto 12","email":"isullcaman12@15ce.com","status":"active"}
+
+09:32:12.687 [main] DEBUG com.intuit.karate - response time in milliseconds: 587
+1 < 404
+1 < Date: Wed, 31 Jul 2024 13:32:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 2
+1 < x-request-id: f7fc6d49-76b7-4e6c-b41a-cb86272d4d21
+1 < x-runtime: 0.051706
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ReVGCfG7zXKhhVBF%2Bxuv9hXXAzKNHtIJ8oAi%2F0Gg3jWAHVogCmtsMjWeVWFa5s7soe5GAY%2FyCAm5sgAqJlwR6z%2BzfC0TnN8hGI8Ea8RNgxdhr7WyyTYVXMaI0yrSnKU%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf4396cf28da3-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+
+09:32:12.694 [main] ERROR com.intuit.karate - classpath:karateApp/feature/ejercicio1.feature:56
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 587, url: https://gorest.co.in/public/v2/users/idUser, response: 
+{"message":"Resource not found"}
+classpath:karateApp/feature/ejercicio1.feature:56
+09:32:12.717 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:32:12.722 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://gorest.co.in/api/users/idUser
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:32:13.814 [main] DEBUG com.intuit.karate - response time in milliseconds: 1090
+1 < 404
+1 < Date: Wed, 31 Jul 2024 13:32:22 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+1 < link: </assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css>; rel=preload; as=style; nopush
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 2bda4d0c-3d4b-4cc5-84d4-d0496f25b331
+1 < x-runtime: 0.025797
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=k2iE9C58BhCZW79%2FkG3QJfBQAVcaohHI9Y70zjSveGSBPO1tROCkSf%2F6q2m4G290twDJ8FJqyDIFUmZ9bUxEITyAWaFE6J%2F4xPNt3DFGWtnoZNEFgDITazNfww4p4FE%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf43d7aa7748d-MIA
+1 < alt-svc: h3=":443"; ma=86400
+<!DOCTYPE html><html><head><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /><link href="/favicon.ico" rel="icon" type="image/x-icon" /><title>Page Not Found | GO REST</title><link rel="stylesheet" href="/assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css" media="all" data-turbolinks-track="reload" /><script src="/packs/js/application-194ed409298f13f197d2.js" data-turbolinks-track="reload" defer="defer"></script><script async="true" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899"></script><script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-7KR6VNWHWS');</script></head><body><nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"><div class="container"><a class="navbar-brand" href="/"><i class="fas fa-exchange-alt"></i> Go REST</a><button aria-controls="AppNavBar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#AppNavBar" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="AppNavBar"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="/chandamama-stories"><i class="fas fa-cloud-moon"></i> Chandamama Stories</a></li><li class="nav-item"><a class="nav-link" href="/qa"><i class="fas fa-life-ring"></i> Help</a></li><li class="nav-item"><a class="nav-link" href="/rest-console"><i class="fab fa-linux"></i> Rest Console</a></li><li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="ToolsDropDown" role="button"><i class="fas fa-tools"></i> Tools</a><ul aria-labelledby="ToolsDropDown" class="dropdown-menu"><li class><a class="dropdown-item" href="/tools/base64-encode-decode">Base64 Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/url-encode-decode">Url Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/gcode-translator">G-Code Translator</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/consumer/login">Login</a></li></ul></div></div></nav><div class="container pt-3"><style type="text/css">.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}</style><div class="card text-white border-secondary bg-dark"><div class="card-header"><h1 class="card-title text-warning"><i class="fas fa-ghost text-white slide-right"></i> HTTP: Not Found </h1></div><div class="card-body"><h3 class="leaad code-text"><code class="mb-3"><span>this_page</span>.<em>not_found</em> = true</code></h3><p class="lead code-text"><code class="mb-2"><span>if</span> <b>you_spelt_it_wrong</b> <br/>&nbsp;&nbsp;<span>try_again</span><br/></code><code class="mb-2"><span>elsif <b>we_screwed_up</b></span> <br/>&nbsp;&nbsp;<em>print</em> <i>"We're really sorry about that."</i><br/></code><code class="mb-2"><span>end</span></code><code class="mb-2"><span>redirect_to</span> <em>home_page</em></code></p></div><div class="card-footer"><p class="text-danger">We are sorry, something went wrong. Please try again later.</p></div></div></div><hr class="mt-5" /><div class="container"><div class="footer"><ul class="list-inline"><li class="list-inline-item">&copy; Go Rest 2024</li><li class="list-inline-item float-lg-end"><a href="/privacy-policy">Privacy Policy</a></li><li class="list-inline-item float-lg-end me-3"><a href="/contact-us">Contact Us</a></li></ul></div></div></body></html>
+
+09:32:13.816 [main] ERROR com.intuit.karate - classpath:karateApp/feature/ejercicio1.feature:64
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 1090, url: https://gorest.co.in/api/users/idUser, response: 
+<!DOCTYPE html><html><head><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /><link href="/favicon.ico" rel="icon" type="image/x-icon" /><title>Page Not Found | GO REST</title><link rel="stylesheet" href="/assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css" media="all" data-turbolinks-track="reload" /><script src="/packs/js/application-194ed409298f13f197d2.js" data-turbolinks-track="reload" defer="defer"></script><script async="true" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899"></script><script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-7KR6VNWHWS');</script></head><body><nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"><div class="container"><a class="navbar-brand" href="/"><i class="fas fa-exchange-alt"></i> Go REST</a><button aria-controls="AppNavBar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#AppNavBar" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="AppNavBar"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="/chandamama-stories"><i class="fas fa-cloud-moon"></i> Chandamama Stories</a></li><li class="nav-item"><a class="nav-link" href="/qa"><i class="fas fa-life-ring"></i> Help</a></li><li class="nav-item"><a class="nav-link" href="/rest-console"><i class="fab fa-linux"></i> Rest Console</a></li><li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="ToolsDropDown" role="button"><i class="fas fa-tools"></i> Tools</a><ul aria-labelledby="ToolsDropDown" class="dropdown-menu"><li class><a class="dropdown-item" href="/tools/base64-encode-decode">Base64 Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/url-encode-decode">Url Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/gcode-translator">G-Code Translator</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/consumer/login">Login</a></li></ul></div></div></nav><div class="container pt-3"><style type="text/css">.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}</style><div class="card text-white border-secondary bg-dark"><div class="card-header"><h1 class="card-title text-warning"><i class="fas fa-ghost text-white slide-right"></i> HTTP: Not Found </h1></div><div class="card-body"><h3 class="leaad code-text"><code class="mb-3"><span>this_page</span>.<em>not_found</em> = true</code></h3><p class="lead code-text"><code class="mb-2"><span>if</span> <b>you_spelt_it_wrong</b> <br/>&nbsp;&nbsp;<span>try_again</span><br/></code><code class="mb-2"><span>elsif <b>we_screwed_up</b></span> <br/>&nbsp;&nbsp;<em>print</em> <i>"We're really sorry about that."</i><br/></code><code class="mb-2"><span>end</span></code><code class="mb-2"><span>redirect_to</span> <em>home_page</em></code></p></div><div class="card-footer"><p class="text-danger">We are sorry, something went wrong. Please try again later.</p></div></div></div><hr class="mt-5" /><div class="container"><div class="footer"><ul class="list-inline"><li class="list-inline-item">&copy; Go Rest 2024</li><li class="list-inline-item float-lg-end"><a href="/privacy-policy">Privacy Policy</a></li><li class="list-inline-item float-lg-end me-3"><a href="/contact-us">Contact Us</a></li></ul></div></div></body></html>
+classpath:karateApp/feature/ejercicio1.feature:64
+09:32:53.890 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:32:54.880 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:32:55.177 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:32:56.660 [main] DEBUG com.intuit.karate - response time in milliseconds: 1478
+1 < 200
+1 < Date: Wed, 31 Jul 2024 13:33:05 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"1c68fb07b47a36b296084e1b8b64cb68"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 294
+1 < x-pagination-total: 2938
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 88
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 4505c24f-fae0-420d-9740-9439f59a4c86
+1 < x-runtime: 0.130987
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=T4BDXhFNc5w3t1A9iIJu%2BbJvXRfomouF2QwlpZF8Mb4m%2FPV6oj92g44b%2BI%2FjedP50C7sWF9H7BXzuaj1eISExJ41f9FbfFrdhomIwOkDNFgkc6ON6hc0U2aRVsXRqTc%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf547e9845730-MIA
+1 < alt-svc: h3=":443"; ma=86400
+[{"id":7250825,"name":"Ismael Sullcamani 3121","email":"isullcaman122@15ce.com","gender":"male","status":"active"},{"id":7247581,"name":"Samuel Quenta","email":"varma_chandran2@durgan.test","gender":"male","status":"active"},{"id":7250798,"name":"Samuel Quenta Carvajal","email":"squentac3@bancosol.com.bo","gender":"male","status":"active"},{"id":7250783,"name":"Rami Malek","email":"ramimalek@gmail.com","gender":"male","status":"active"},{"id":7250766,"name":"Tenali Ramakrishndda","email":"tenali.ramakddishna@15ce.com","gender":"male","status":"active"},{"id":7250696,"name":"Allasani Peddana","email":"ai.peddana@15ce.com","gender":"male","status":"active"},{"id":7250683,"name":"Tenali Ramakrishna","email":"tenali.ra@teest.com","gender":"male","status":"active"},{"id":7250354,"name":"Ismael Sullcamani Porto 1","email":"isullcaman11@15ce.com","gender":"male","status":"active"},{"id":7250555,"name":"Tenali Ramakrishna","email":"tenali.ramakrishna@teest.com","gender":"male","status":"active"},{"id":7250543,"name":"Tenali Ramakrishna","email":"tenali.ramakrishna@tst.com","gender":"male","status":"active"}]
+
+09:32:56.736 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:32:56.777 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 104
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Ismael aaSullcamani 3121","gender":"male","email":"isullcsaaman122@15ce.com","status":"active"}
+
+09:32:57.977 [main] DEBUG com.intuit.karate - response time in milliseconds: 1199
+1 < 201
+1 < Date: Wed, 31 Jul 2024 13:33:06 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 117
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"d562b77df7a124f63d6986b47414a167"
+1 < location: https://gorest.co.in/public/v2/users/7250840
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 2ca984bd-5408-4651-bcf1-3c3087043469
+1 < x-runtime: 0.149028
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=5y2m%2F2SQEZyQ9XwR7vQJdVR0mahadrHfOZVc44a%2BANtZfsglP9nd9Db0960aRPqCHayxQmallOt4YfKwljQv4hetsyOsvRg5m%2FuWe9osdTUWtrFUSiK7f5Ueox4orpQ%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf550ae532227-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{"id":7250840,"name":"Ismael aaSullcamani 3121","email":"isullcsaaman122@15ce.com","gender":"male","status":"active"}
+
+09:32:57.997 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:32:58.005 [main] DEBUG com.intuit.karate - request:
+1 > PATCH https://gorest.co.in/public/v2/users/idUser
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 87
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Ismael Sullcamani Porto 12","email":"isullcaman12@15ce.com","status":"active"}
+
+09:32:58.617 [main] DEBUG com.intuit.karate - response time in milliseconds: 611
+1 < 404
+1 < Date: Wed, 31 Jul 2024 13:33:07 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: d79609ed-fd74-4641-9361-f5b281652467
+1 < x-runtime: 0.089688
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=xnJTsgg8lLMmKg8vPl7AMoS3w6qiccnCtniQCcdbaVuB6cwpt0utoLhXI97EWZU5KZk8Peum5ir25o7i2gWOfhj1K5gbRsAwPc8GbLKFdGOS4mqHwidjnXIAb4wxOmc%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf5585c1c67b7-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+
+09:32:58.624 [main] ERROR com.intuit.karate - classpath:karateApp/feature/ejercicio1.feature:56
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 611, url: https://gorest.co.in/public/v2/users/idUser, response: 
+{"message":"Resource not found"}
+classpath:karateApp/feature/ejercicio1.feature:56
+09:32:58.642 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:32:58.646 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://gorest.co.in/api/users/idUser
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:32:59.196 [main] DEBUG com.intuit.karate - response time in milliseconds: 549
+1 < 404
+1 < Date: Wed, 31 Jul 2024 13:33:08 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+1 < link: </assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css>; rel=preload; as=style; nopush
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 74a6fe43-7c09-490f-b33b-44a23e46b2d8
+1 < x-runtime: 0.016102
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=8bQCBbG1Vf8q90qbpAckD5YypEaJ46Hfjxig5ZEP4xG5va%2BuoTANNXwR3a%2Bli52YEm2DM0iz33oG7JyV9KuGUL8YfWMeOJdMWEUgZw4N23rAQOiNlptRX6XZULc%2BOF0%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf55c5f8867ec-MIA
+1 < alt-svc: h3=":443"; ma=86400
+<!DOCTYPE html><html><head><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /><link href="/favicon.ico" rel="icon" type="image/x-icon" /><title>Page Not Found | GO REST</title><link rel="stylesheet" href="/assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css" media="all" data-turbolinks-track="reload" /><script src="/packs/js/application-194ed409298f13f197d2.js" data-turbolinks-track="reload" defer="defer"></script><script async="true" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899"></script><script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-7KR6VNWHWS');</script></head><body><nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"><div class="container"><a class="navbar-brand" href="/"><i class="fas fa-exchange-alt"></i> Go REST</a><button aria-controls="AppNavBar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#AppNavBar" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="AppNavBar"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="/chandamama-stories"><i class="fas fa-cloud-moon"></i> Chandamama Stories</a></li><li class="nav-item"><a class="nav-link" href="/qa"><i class="fas fa-life-ring"></i> Help</a></li><li class="nav-item"><a class="nav-link" href="/rest-console"><i class="fab fa-linux"></i> Rest Console</a></li><li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="ToolsDropDown" role="button"><i class="fas fa-tools"></i> Tools</a><ul aria-labelledby="ToolsDropDown" class="dropdown-menu"><li class><a class="dropdown-item" href="/tools/base64-encode-decode">Base64 Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/url-encode-decode">Url Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/gcode-translator">G-Code Translator</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/consumer/login">Login</a></li></ul></div></div></nav><div class="container pt-3"><style type="text/css">.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}</style><div class="card text-white border-secondary bg-dark"><div class="card-header"><h1 class="card-title text-warning"><i class="fas fa-ghost text-white slide-right"></i> HTTP: Not Found </h1></div><div class="card-body"><h3 class="leaad code-text"><code class="mb-3"><span>this_page</span>.<em>not_found</em> = true</code></h3><p class="lead code-text"><code class="mb-2"><span>if</span> <b>you_spelt_it_wrong</b> <br/>&nbsp;&nbsp;<span>try_again</span><br/></code><code class="mb-2"><span>elsif <b>we_screwed_up</b></span> <br/>&nbsp;&nbsp;<em>print</em> <i>"We're really sorry about that."</i><br/></code><code class="mb-2"><span>end</span></code><code class="mb-2"><span>redirect_to</span> <em>home_page</em></code></p></div><div class="card-footer"><p class="text-danger">We are sorry, something went wrong. Please try again later.</p></div></div></div><hr class="mt-5" /><div class="container"><div class="footer"><ul class="list-inline"><li class="list-inline-item">&copy; Go Rest 2024</li><li class="list-inline-item float-lg-end"><a href="/privacy-policy">Privacy Policy</a></li><li class="list-inline-item float-lg-end me-3"><a href="/contact-us">Contact Us</a></li></ul></div></div></body></html>
+
+09:32:59.198 [main] ERROR com.intuit.karate - classpath:karateApp/feature/ejercicio1.feature:64
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 549, url: https://gorest.co.in/api/users/idUser, response: 
+<!DOCTYPE html><html><head><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /><link href="/favicon.ico" rel="icon" type="image/x-icon" /><title>Page Not Found | GO REST</title><link rel="stylesheet" href="/assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css" media="all" data-turbolinks-track="reload" /><script src="/packs/js/application-194ed409298f13f197d2.js" data-turbolinks-track="reload" defer="defer"></script><script async="true" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899"></script><script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-7KR6VNWHWS');</script></head><body><nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"><div class="container"><a class="navbar-brand" href="/"><i class="fas fa-exchange-alt"></i> Go REST</a><button aria-controls="AppNavBar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#AppNavBar" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="AppNavBar"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="/chandamama-stories"><i class="fas fa-cloud-moon"></i> Chandamama Stories</a></li><li class="nav-item"><a class="nav-link" href="/qa"><i class="fas fa-life-ring"></i> Help</a></li><li class="nav-item"><a class="nav-link" href="/rest-console"><i class="fab fa-linux"></i> Rest Console</a></li><li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="ToolsDropDown" role="button"><i class="fas fa-tools"></i> Tools</a><ul aria-labelledby="ToolsDropDown" class="dropdown-menu"><li class><a class="dropdown-item" href="/tools/base64-encode-decode">Base64 Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/url-encode-decode">Url Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/gcode-translator">G-Code Translator</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/consumer/login">Login</a></li></ul></div></div></nav><div class="container pt-3"><style type="text/css">.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}</style><div class="card text-white border-secondary bg-dark"><div class="card-header"><h1 class="card-title text-warning"><i class="fas fa-ghost text-white slide-right"></i> HTTP: Not Found </h1></div><div class="card-body"><h3 class="leaad code-text"><code class="mb-3"><span>this_page</span>.<em>not_found</em> = true</code></h3><p class="lead code-text"><code class="mb-2"><span>if</span> <b>you_spelt_it_wrong</b> <br/>&nbsp;&nbsp;<span>try_again</span><br/></code><code class="mb-2"><span>elsif <b>we_screwed_up</b></span> <br/>&nbsp;&nbsp;<em>print</em> <i>"We're really sorry about that."</i><br/></code><code class="mb-2"><span>end</span></code><code class="mb-2"><span>redirect_to</span> <em>home_page</em></code></p></div><div class="card-footer"><p class="text-danger">We are sorry, something went wrong. Please try again later.</p></div></div></div><hr class="mt-5" /><div class="container"><div class="footer"><ul class="list-inline"><li class="list-inline-item">&copy; Go Rest 2024</li><li class="list-inline-item float-lg-end"><a href="/privacy-policy">Privacy Policy</a></li><li class="list-inline-item float-lg-end me-3"><a href="/contact-us">Contact Us</a></li></ul></div></div></body></html>
+classpath:karateApp/feature/ejercicio1.feature:64
+09:34:33.911 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:34:34.918 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:34:35.207 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:34:36.048 [main] DEBUG com.intuit.karate - response time in milliseconds: 837
+1 < 200
+1 < Date: Wed, 31 Jul 2024 13:34:45 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"110312ce6d0a9b1c0f333ebcc7c26773"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 295
+1 < x-pagination-total: 2941
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 88
+1 < x-ratelimit-reset: 1
+1 < x-request-id: c36c0de0-08ea-44e4-9072-4e98de387854
+1 < x-runtime: 0.097208
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Gsd59NGxH2W2bboIF4siowxpq8Kq%2ByswCgfsucmtWV34lWqgvC5Owbq6CfwTsgWskSBsXBa1Ne8hEpRCtBnOwwVzgSKDRx7cY86m4Ilb9dOU2lLGPGbfeFd1SiWyb5Y%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf7b91f00a4dc-MIA
+1 < alt-svc: h3=":443"; ma=86400
+[{"id":7250864,"name":"Samuel Quenta Carvajal","email":"squentac5@bancosol.com.bo","gender":"male","status":"active"},{"id":7247574,"name":"Samuel Quenta","email":"sam@durgan.test","gender":"male","status":"active"},{"id":7250859,"name":"Tenali Ramakrishna","email":"tenaFliis.ra@teest.com","gender":"male","status":"active"},{"id":7250845,"name":"Tenali Ramakrishna","email":"tenaFlis.ra@teest.com","gender":"male","status":"active"},{"id":7250843,"name":"Samuel Quenta Carvajal","email":"squentac4@bancosol.com.bo","gender":"male","status":"active"},{"id":7250840,"name":"Ismael aaSullcamani 3121","email":"isullcsaaman122@15ce.com","gender":"male","status":"active"},{"id":7250825,"name":"Ismael Sullcamani 3121","email":"isullcaman122@15ce.com","gender":"male","status":"active"},{"id":7247581,"name":"Samuel Quenta","email":"varma_chandran2@durgan.test","gender":"male","status":"active"},{"id":7250798,"name":"Samuel Quenta Carvajal","email":"squentac3@bancosol.com.bo","gender":"male","status":"active"},{"id":7250783,"name":"Rami Malek","email":"ramimalek@gmail.com","gender":"male","status":"active"}]
+
+09:34:36.129 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:34:36.172 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 110
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Ismael aaSullcamani 3123121","gender":"male","email":"isullcsaaman123122@15ce.com","status":"active"}
+
+09:34:37.362 [main] DEBUG com.intuit.karate - response time in milliseconds: 1189
+1 < 201
+1 < Date: Wed, 31 Jul 2024 13:34:46 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 123
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"9f3e58ded8e63933485fa82be83bd53d"
+1 < location: https://gorest.co.in/public/v2/users/7250873
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: c6f64b4e-6e3e-4e6e-b228-a498d77cf13e
+1 < x-runtime: 0.140846
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=sY6y2Lyz%2FcJ46Cu%2BWxEs4K5%2BL8RLpYO%2B62ZQH1aSDKGQFuPDnW25ar77BhpnL92z9MmiDAiWbph3tb4hhd1QiMA598pM%2FDR3tDxPHKmZuzckBoE77T32xQk9HW1BvOQ%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf7bdfa2a5c67-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{"id":7250873,"name":"Ismael aaSullcamani 3123121","email":"isullcsaaman123122@15ce.com","gender":"male","status":"active"}
+
+09:34:37.378 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:34:37.383 [main] DEBUG com.intuit.karate - request:
+1 > PATCH https://gorest.co.in/public/v2/users/idUser
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 94
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Ismael Sullcamani Porto 112321","email":"isullcaman11232@15ce.com","status":"active"}
+
+09:34:38.018 [main] DEBUG com.intuit.karate - response time in milliseconds: 633
+1 < 404
+1 < Date: Wed, 31 Jul 2024 13:34:46 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 98bc3e42-2000-4e43-b0b2-e1aabd0a31e5
+1 < x-runtime: 0.090993
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=WXGaHpbgeDTEjNtbgCXfC15eNyA%2FK15pJnKvZRg6vXWRgllch2k%2BwiAsmmrAxOet51cNQJ5ZRU0ot8ZEx%2BDIf4aZeipBdeknsEBA3MeCdQP69ghOWT%2FnbNa6NXoAJRI%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf7c588e8a668-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+
+09:34:38.028 [main] ERROR com.intuit.karate - classpath:karateApp/feature/ejercicio1.feature:56
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 633, url: https://gorest.co.in/public/v2/users/idUser, response: 
+{"message":"Resource not found"}
+classpath:karateApp/feature/ejercicio1.feature:56
+09:34:38.050 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:34:38.055 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://gorest.co.in/api/users/idUser
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:34:38.614 [main] DEBUG com.intuit.karate - response time in milliseconds: 559
+1 < 404
+1 < Date: Wed, 31 Jul 2024 13:34:47 GMT
+1 < Content-Type: text/html; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+1 < link: </assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css>; rel=preload; as=style; nopush
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: f8ef16f5-127d-412c-ad2a-137405ee2fea
+1 < x-runtime: 0.023710
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=58dJUamRmNpgTBdxL9S3f%2F9LMmI99vPc%2FkEjWMFNSVcBezOndV9mK82cRHa9yIvPj3yuF7OZaxF6QFsq2Nm9k4qKoWBN94NACPLOWH3RzNcdyu%2BriQaHsNGHCcNcG8w%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abdf7c9baa009de-MIA
+1 < alt-svc: h3=":443"; ma=86400
+<!DOCTYPE html><html><head><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /><link href="/favicon.ico" rel="icon" type="image/x-icon" /><title>Page Not Found | GO REST</title><link rel="stylesheet" href="/assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css" media="all" data-turbolinks-track="reload" /><script src="/packs/js/application-194ed409298f13f197d2.js" data-turbolinks-track="reload" defer="defer"></script><script async="true" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899"></script><script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-7KR6VNWHWS');</script></head><body><nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"><div class="container"><a class="navbar-brand" href="/"><i class="fas fa-exchange-alt"></i> Go REST</a><button aria-controls="AppNavBar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#AppNavBar" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="AppNavBar"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="/chandamama-stories"><i class="fas fa-cloud-moon"></i> Chandamama Stories</a></li><li class="nav-item"><a class="nav-link" href="/qa"><i class="fas fa-life-ring"></i> Help</a></li><li class="nav-item"><a class="nav-link" href="/rest-console"><i class="fab fa-linux"></i> Rest Console</a></li><li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="ToolsDropDown" role="button"><i class="fas fa-tools"></i> Tools</a><ul aria-labelledby="ToolsDropDown" class="dropdown-menu"><li class><a class="dropdown-item" href="/tools/base64-encode-decode">Base64 Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/url-encode-decode">Url Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/gcode-translator">G-Code Translator</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/consumer/login">Login</a></li></ul></div></div></nav><div class="container pt-3"><style type="text/css">.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}</style><div class="card text-white border-secondary bg-dark"><div class="card-header"><h1 class="card-title text-warning"><i class="fas fa-ghost text-white slide-right"></i> HTTP: Not Found </h1></div><div class="card-body"><h3 class="leaad code-text"><code class="mb-3"><span>this_page</span>.<em>not_found</em> = true</code></h3><p class="lead code-text"><code class="mb-2"><span>if</span> <b>you_spelt_it_wrong</b> <br/>&nbsp;&nbsp;<span>try_again</span><br/></code><code class="mb-2"><span>elsif <b>we_screwed_up</b></span> <br/>&nbsp;&nbsp;<em>print</em> <i>"We're really sorry about that."</i><br/></code><code class="mb-2"><span>end</span></code><code class="mb-2"><span>redirect_to</span> <em>home_page</em></code></p></div><div class="card-footer"><p class="text-danger">We are sorry, something went wrong. Please try again later.</p></div></div></div><hr class="mt-5" /><div class="container"><div class="footer"><ul class="list-inline"><li class="list-inline-item">&copy; Go Rest 2024</li><li class="list-inline-item float-lg-end"><a href="/privacy-policy">Privacy Policy</a></li><li class="list-inline-item float-lg-end me-3"><a href="/contact-us">Contact Us</a></li></ul></div></div></body></html>
+
+09:34:38.616 [main] ERROR com.intuit.karate - classpath:karateApp/feature/ejercicio1.feature:64
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 559, url: https://gorest.co.in/api/users/idUser, response: 
+<!DOCTYPE html><html><head><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /><link href="/favicon.ico" rel="icon" type="image/x-icon" /><title>Page Not Found | GO REST</title><link rel="stylesheet" href="/assets/application-6286ef85f8dd095e49957bfc5b0cba0b68df3592774b35d0494027d130601970.css" media="all" data-turbolinks-track="reload" /><script src="/packs/js/application-194ed409298f13f197d2.js" data-turbolinks-track="reload" defer="defer"></script><script async="true" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899"></script><script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-7KR6VNWHWS');</script></head><body><nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"><div class="container"><a class="navbar-brand" href="/"><i class="fas fa-exchange-alt"></i> Go REST</a><button aria-controls="AppNavBar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#AppNavBar" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="AppNavBar"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="/chandamama-stories"><i class="fas fa-cloud-moon"></i> Chandamama Stories</a></li><li class="nav-item"><a class="nav-link" href="/qa"><i class="fas fa-life-ring"></i> Help</a></li><li class="nav-item"><a class="nav-link" href="/rest-console"><i class="fab fa-linux"></i> Rest Console</a></li><li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="ToolsDropDown" role="button"><i class="fas fa-tools"></i> Tools</a><ul aria-labelledby="ToolsDropDown" class="dropdown-menu"><li class><a class="dropdown-item" href="/tools/base64-encode-decode">Base64 Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/url-encode-decode">Url Encode/Decode</a></li><li class><a class="dropdown-item" href="/tools/gcode-translator">G-Code Translator</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/consumer/login">Login</a></li></ul></div></div></nav><div class="container pt-3"><style type="text/css">.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}</style><div class="card text-white border-secondary bg-dark"><div class="card-header"><h1 class="card-title text-warning"><i class="fas fa-ghost text-white slide-right"></i> HTTP: Not Found </h1></div><div class="card-body"><h3 class="leaad code-text"><code class="mb-3"><span>this_page</span>.<em>not_found</em> = true</code></h3><p class="lead code-text"><code class="mb-2"><span>if</span> <b>you_spelt_it_wrong</b> <br/>&nbsp;&nbsp;<span>try_again</span><br/></code><code class="mb-2"><span>elsif <b>we_screwed_up</b></span> <br/>&nbsp;&nbsp;<em>print</em> <i>"We're really sorry about that."</i><br/></code><code class="mb-2"><span>end</span></code><code class="mb-2"><span>redirect_to</span> <em>home_page</em></code></p></div><div class="card-footer"><p class="text-danger">We are sorry, something went wrong. Please try again later.</p></div></div></div><hr class="mt-5" /><div class="container"><div class="footer"><ul class="list-inline"><li class="list-inline-item">&copy; Go Rest 2024</li><li class="list-inline-item float-lg-end"><a href="/privacy-policy">Privacy Policy</a></li><li class="list-inline-item float-lg-end me-3"><a href="/contact-us">Contact Us</a></li></ul></div></div></body></html>
+classpath:karateApp/feature/ejercicio1.feature:64
+09:40:28.014 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:40:29.069 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:40:29.411 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:40:30.806 [main] DEBUG com.intuit.karate - response time in milliseconds: 1390
+1 < 200
+1 < Date: Wed, 31 Jul 2024 13:40:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"080b4b907727d58f1e6e5725413962ff"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 < x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 < x-links-previous: 
+1 < x-pagination-limit: 10
+1 < x-pagination-page: 1
+1 < x-pagination-pages: 295
+1 < x-pagination-total: 2942
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 86
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 4d0af4b4-8092-4b57-a976-4b8b0dbb9192
+1 < x-runtime: 0.137832
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ou0qNa4TcCXZ0RTM%2BNfq90SQW%2BsgpIcLvQnfx1A8TBWWjIP8szYjnUdmkK1DHG6aIwhH4LH6dGoahhpKV0eLerwwOWpX1HUUNgnibgF3Cp74SSkSyLJ8YvY9fV6JpLs%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abe005edf5cdb11-MIA
+1 < alt-svc: h3=":443"; ma=86400
+[{"id":7250873,"name":"Ismael aaSullcamani 3123121","email":"isullcsaaman123122@15ce.com","gender":"male","status":"active"},{"id":7250864,"name":"Samuel Quenta Carvajal","email":"squentac5@bancosol.com.bo","gender":"male","status":"active"},{"id":7247574,"name":"Samuel Quenta","email":"sam@durgan.test","gender":"male","status":"active"},{"id":7250859,"name":"Tenali Ramakrishna","email":"tenaFliis.ra@teest.com","gender":"male","status":"active"},{"id":7250845,"name":"Tenali Ramakrishna","email":"tenaFlis.ra@teest.com","gender":"male","status":"active"},{"id":7250843,"name":"Samuel Quenta Carvajal","email":"squentac4@bancosol.com.bo","gender":"male","status":"active"},{"id":7250840,"name":"Ismael aaSullcamani 3121","email":"isullcsaaman122@15ce.com","gender":"male","status":"active"},{"id":7250825,"name":"Ismael Sullcamani 3121","email":"isullcaman122@15ce.com","gender":"male","status":"active"},{"id":7247581,"name":"Samuel Quenta","email":"varma_chandran2@durgan.test","gender":"male","status":"active"},{"id":7250798,"name":"Samuel Quenta Carvajal","email":"squentac3@bancosol.com.bo","gender":"male","status":"active"}]
+
+09:40:30.881 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:40:31.137 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 81
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"name":"randomUserName","gender":"male","email":"randomEmail","status":"active"}
+
+09:40:32.266 [main] DEBUG com.intuit.karate - response time in milliseconds: 1128
+1 < 422
+1 < Date: Wed, 31 Jul 2024 13:40:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 42
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: a0b11adb-a412-489c-8e57-92487ff8483e
+1 < x-runtime: 0.059708
+1 < x-xss-protection: 0
+1 < cf-cache-status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=zRwjlB%2BSc8UuXdPUfNOdL%2Bi4bqXB%2F26%2FsVtFuur2zKSAucrG9VKspSUNvG4UE6szVy3spDQyWzr04q8Puh4QXNQcaCO%2B8Nwq1JGUmt%2FvHogoulutTdqbwVs7K%2BY7qdo%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abe0068af523346-MIA
+1 < alt-svc: h3=":443"; ma=86400
+[{"field":"email","message":"is invalid"}]
+
+09:40:32.275 [main] ERROR com.intuit.karate - classpath:karateApp/feature/ejercicio1.feature:42
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 1128, url: https://gorest.co.in/public/v2/users, response: 
+[{"field":"email","message":"is invalid"}]
+classpath:karateApp/feature/ejercicio1.feature:42
+09:40:32.299 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:40:32.350 [main] DEBUG com.intuit.karate - request:
+1 > PATCH https://gorest.co.in/public/v2/users/idUser
+1 > Authorization: Bearer 700d0c7a86eb84028bf5cd204b11587f812f9d7cd880dc4edbdbd1d407ae9954
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 65
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"name":"randomEmail","email":"randomUserName","status":"active"}
+
+09:40:33.477 [main] DEBUG com.intuit.karate - response time in milliseconds: 1125
+1 < 404
+1 < Date: Wed, 31 Jul 2024 13:40:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 40c64b75-0ff6-4657-90eb-8384d261dab7
+1 < x-runtime: 0.095460
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=SX6Ln45mp8YXYUXvfSBs57jGu5ne65NYVns7YWWYK2yzc47mZevAj4kcMse7qCyBWmLibgj50pm1FS%2Bb%2FT%2BOL9Q79Vi%2Fci%2BjSopOwl%2FAdFwXu0Z%2BRR3sbKSizNv8Qls%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 8abe00700edb7489-MIA
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+
+09:40:33.479 [main] ERROR com.intuit.karate - classpath:karateApp/feature/ejercicio1.feature:62
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1125, url: https://gorest.co.in/public/v2/users/idUser, response: 
+{"message":"Resource not found"}
+classpath:karateApp/feature/ejercicio1.feature:62
+09:40:33.491 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:40:33.508 [main] ERROR com.intuit.karate - classpath:karateApp/feature/ejercicio1.feature:67
+Given path 'public/v2/users/'+idUser
+js failed:
+>>>>
+01: 'public/v2/users/'+idUser
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "idUser" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:karateApp/feature/ejercicio1.feature:67
