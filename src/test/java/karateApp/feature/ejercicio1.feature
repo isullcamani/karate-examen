@@ -3,6 +3,8 @@ Feature: ejercicio de corrida todo
   Background:
     Given url apiUrl
     * def dataGenerator = Java.type('helpers.DataGenerator')//genera de forma aleatoria un correo y usuario con la librería javafaker
+    * def UserResponse = call read('classpath:helpers/CreateToken.feature')
+    * def idUserGlobal = UserResponse.idUser
 
   Scenario: Listar usuarios
     Given path 'public/v2/users'
@@ -41,15 +43,15 @@ Feature: ejercicio de corrida todo
       And method Post
       Then status 201 
       And match response.name == userData.name
-      * def idUser = response.idUser
+      * def idUser2 = response.idUser
       
     
     Scenario: Actualizar usuario
       * def randomEmail = dataGenerator.getRandomEmail();
       * def randomUserName = dataGenerator.getRandomUserName();
-      Given def userData = {"name":#(randomUserName), "email":#(randomEmail),"status":"active", "id":idUser}
+      Given def userData = {"name":#(randomUserName), "email":#(randomEmail),"status":"active", "id":#(idUserGlobal)}
         And header Authorization = 'Bearer ' + token
-      Given path 'public/v2/users/'+userData.id
+      Given path 'public/v2/users/'+idUserGlobal
       And request 
       """
       {
@@ -64,7 +66,7 @@ Feature: ejercicio de corrida todo
     
     Scenario: borrar usuario
       # Given def userData = {"id":idUser}
-      Given path 'public/v2/users/'+idUser
+      Given path 'public/v2/users/'+idUserGlobal
       And header Authorization = 'Bearer ' + token
       And method delete
       Then status 204
