@@ -26,7 +26,7 @@ Feature: ejercicio de corrida todo
       * def randomEmail = dataGenerator.getRandomEmail();
       * def randomUserName = dataGenerator.getRandomUserName();
 
-      Given def userData = {"name":randomUserName, "gender":"male", "email":randomEmail, "status":"active"}
+      Given def userData = {"name":#(randomUserName), "gender":"male", "email":#(randomEmail), "status":"active"}
       And header Authorization = 'Bearer ' + token
       Given path '/public/v2/users'
       And request 
@@ -47,7 +47,7 @@ Feature: ejercicio de corrida todo
     Scenario: Actualizar usuario
       * def randomEmail = dataGenerator.getRandomEmail();
       * def randomUserName = dataGenerator.getRandomUserName();
-      Given def userData = {"name":randomEmail, "email":randomUserName,"status":"active", "id":idUser}
+      Given def userData = {"name":#(randomUserName), "email":#(randomEmail),"status":"active", "id":idUser}
         And header Authorization = 'Bearer ' + token
       Given path 'public/v2/users/'+userData.id
       And request 
